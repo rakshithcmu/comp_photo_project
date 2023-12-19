@@ -1,0 +1,5 @@
+python eval_standard.py ./results/ --checkpoint pretrained_weights/cvpr2022.pth --uncalibrated --calib_net_checkpoint pretrained_weights/cal_cvpr2022.pth --dataset_root ../datasets/FastNFPSCaptures
+
+python eval_standard.py ./results/ --checkpoint pretrained_weights/cvpr2022.pth --uncalibrated --calib_net_checkpoint pretrained_weights/cal_cvpr2022.pth --dataset_root ../datasets/LUCES_dataset/data/
+
+python eval_standard.py ./results/ --checkpoint pretrained_weights/cvpr2022.pth --uncalibrated --calib_net_checkpoint pretrained_weights/cal_cvpr2022.pth --dataset_root ../datasets/my_data_non_admissible_new/
